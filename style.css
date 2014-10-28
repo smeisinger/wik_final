@@ -1,0 +1,317 @@
+body {
+	text-rendering: optimizeLegibility;
+	background-color: #d5d7d2;
+	padding: 0;
+	margin: 0;
+	color: #585858;
+	font-size: 14px;
+	line-height: 22px;
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+a:link, a:visited {
+	color: #585858;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+	color: #999;
+}
+
+
+#logo {
+	position: relative;
+	float: left;
+	left: 20px;
+	width: 280px;
+	height: 430px;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+	padding: 115px 0 0 0;
+	text-align: center;
+	background-color: rgba(91,116,63,0.5);
+	z-index: 9;
+}
+
+#topimg {
+	position: absolute;
+	width: 996px;
+	height: auto;
+	top: 70px;
+	float:left;
+	z-index: 1;
+}
+
+#container {
+	position: relative;
+	width: 996px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+#content {
+	background-color: #fff;
+	width: 100%;
+	padding: 25px;
+	display: block;
+	height: auto;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+	clear: both;
+}
+
+#contentgrey {
+	background-color: none;
+	width: 100%;
+	padding: 25px;
+	display: block;
+	height: auto;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+	clear: both;
+	margin: 0 0 25px 0;
+}
+
+.row {
+	position: relative;
+	display: block;
+	width 100%;
+	clear: both;
+	border-top: 1px #5c5c5c solid;
+	padding: 35px 0 0 0;
+	margin: 30px 0 0 0;
+	overflow: hidden;
+}
+
+.firstrow {
+	border-top: none;
+	padding: 0;
+	margin: 15px 0 0 0;
+
+}
+
+.leftcollumn {
+	position: relative;
+	float: left;
+	width: 260px;
+	height: auto;
+	display: block;
+}
+
+.rightcollumn {
+	position: relative;
+	float: left;
+	left: 35px;
+	width: 660px;
+	height: auto;
+	display: block;
+}
+
+h1 {
+	font-family: Georgia, serif;
+	color: #638840;
+	font-size: 45px;
+	line-height: 44px;
+	font-style: italic;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: "HelveticaNeueLTPro-Lt", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	color: #638840;
+	font-size: 23px;
+	line-height: 26px;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0 0 12px 0;
+}
+
+h3 {
+	font-family: "HelveticaNeueLTPro-Lt", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	color: #638840;
+	font-size: 29px;
+	line-height: 35px;
+	font-weight: 200;
+	padding: 4px 10px;
+	background-color: #fff;
+	margin: -4px 0;
+	display: inline-block;
+	text-transform: uppercase;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h3 span { 
+  margin-top: -107px;        /* Size of fixed header */
+  padding-bottom: 72px; 
+  display: block; 
+}
+
+
+.grey {
+	background-color: #d5d7d2;
+}
+
+.twocollumn {
+	width: 640px;
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+	column-gap: 20px;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+
+.rightcollumn ul {
+	padding: 0;
+	margin: 0 0 0 20px;
+	position: relative;
+	float: left;
+}
+
+.rightcollumn ul li{
+	padding: 0;
+	margin: 0;
+}
+
+.facts {
+	width: 300px;
+	font-weight: 800;
+}
+
+.factsleft {
+	margin-right: 20px !important;
+}
+
+
+.rightcollumn_small {
+	position: relative;
+	float: left;
+	width: 260px;
+	margin: 0 70px 0 0;
+}
+
+.stripes {
+	background-image: url("http://www.wohneninkumberg.com/kumberg/img/stripes.png");
+	height: 170px;
+	padding: 4px 0 0 0;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.var1 {
+	background-image: url("http://www.wohneninkumberg.com/kumberg/img/var1.jpg");
+	height: 176px;
+	padding: 4px 0 0 0;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.var2 {
+	background-image: url("http://www.wohneninkumberg.com/kumberg/img/var2.jpg");
+	height: 176px;
+	padding: 4px 0 0 0;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.whitestripes {
+	background-image: url("http://www.wohneninkumberg.com/kumberg/img/whitestripes.png");
+	height: 170px;
+	padding: 4px 0 0 0;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.download {
+	background-image: url("http://www.wohneninkumberg.com/kumberg/img/download.gif");
+	background-repeat: no-repeat;
+	background-position-y: 0px;
+	padding: 0 0 0 40px;
+	position: relative;
+	font-weight: bold;
+	float: right;
+	width: 260px;
+	line-height: 15px;
+	width: 230px;
+}
+
+.download:link, .download:visited {
+	color: #809e67;
+	text-decoration: none;
+}
+
+.download:hover, .download:focus {
+	color: #a1b890;
+	text-decoration: none;
+	background-position-y: -30px;
+}
+
+.email {
+	background-image: url("http://www.wohneninkumberg.com/kumberg/img/email.gif");
+	background-repeat: no-repeat;
+	background-position-y: 0px;
+	padding: 0 0 0 40px;
+	position: relative;
+	font-weight: bold;
+	float: right;
+	width: 260px;
+	line-height: 18px;
+	width: 230px;
+}
+
+.email:link, .email:visited {
+	color: #809e67;
+	text-decoration: none;
+}
+
+.email:hover, .email:focus {
+	color: #a1b890;
+	text-decoration: none;
+	background-position-y: -60px;
+}
+
+#topnav {
+	font-family: "HelveticaNeueLTPro-Lt", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	background-repeat: repeat-y;
+	position: static;
+	width: 996px;
+	z-index: 5000;
+	background-color: #d5d7d2;
+	margin: 0 auto;
+	text-align: right;
+	padding: 25px;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+
+#sticky-anchor {
+	font-family: "HelveticaNeueLTPro-Lt", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	background-repeat: repeat-y;
+	width: 996px;
+	height: 70px;
+	z-index: 5000;
+	background-color: #d5d7d2;
+	top: 0px;
+	margin: 0 auto;
+	text-align: right;
+	padding: 25px;
+	-moz-box-sizing: border-box; box-sizing: border-box;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+#sticky-anchor a:link, #sticky-anchor a:visited {
+	text-decoration: none;
+	color: #585858;
+}
+
+#sticky-anchor a:hover, #sticky-anchor a:focus {
+	text-decoration: none;
+	color: #999;
+}
+
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
